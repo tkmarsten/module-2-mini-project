@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assests/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1>CSS Snippet Cheatsheet</h1>
+    <p>Ever had trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it
+      to<br>
+      this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
+  </header>
+  <section class="main">
+    <div class="card">
+      <h2 class="card-title">Flexbox Row</h2>
+      <p class="card-text">Use these properties to create a Flexbox row layout.</p>
+      <div class="code-snippet">
+        <pre><code>.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}</code></pre>
+      </div>
+    </div>
+    <div class="card">
+      <h2 class="card-title">Flexbox Column</h2>
+      <p class="card-text">Use this to create a Flexbox column layout.</p>
+      <div class="code-snippet">
+        <pre><code>.column {
+  display: flex;
+  flex-direction: column;
+}</code></pre>
+      </div>
+    </div>
+    <div class="card">
+      <h2 class="card-title">CSS Grid Layout</h2>
+      <p class="card-text">Build a 12-column layout using CSS grid.</p>
+      <div class="code-snippet">
+        <pre><code>.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns:
+  repeat(12, 1fr);
+}</code></pre>
+      </div>
+    </div>
+  </section>
+  <footer>
+    Made with <span class="heart">❤️️</span> and CSS
+  </footer>
+</body>
+
+</html>
